@@ -6,13 +6,13 @@ public class Problem3
    int n = scanner.nextInt();
     int sum = 0;
     int i = 1;
-     while (i <= 10 )  {
+     while (i < 10 )  {
         sum = n * i;
         i = i + 1;
         int s = sum;
 
 
-        System.out.println(sum);
+        System.out.println("n*i="+ sum );
     }
 }
 }

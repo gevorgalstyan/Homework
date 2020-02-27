@@ -11,12 +11,6 @@ public class Problem7 {
                 sum =1+(-i) ;
                 i = i + 1;
                 System.out.println(sum);}
-
-
-
-
-
-
         }}}
 
 

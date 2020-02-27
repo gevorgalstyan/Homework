@@ -2,13 +2,17 @@
     { public static void main (String [] args) {
         int x = 100;
         int y = 200;
-        int sum = 0;
-        do {
+        int sum=0;
 
-        }
+        while ( x <= y) {
 
-        while (x < y) ;{
-        sum = x/9;
-        System.out.println("true");}
-        x = x + 1;
-    }}
+        if (x%9 == 0)
+            System.out.println(x);
+
+             x = x + 1;
+
+        }}
+
+
+
+    }
